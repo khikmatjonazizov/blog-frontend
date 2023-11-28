@@ -3,16 +3,18 @@ import { NextPage } from 'next';
 import { Inter } from 'next/font/google';
 
 import {
-    HomeStyled
-} from './home.styled'
+    Styled
+} from './styled'
 import { Button } from '@/shared/ui';
+import { Header } from '@/widgets';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const Home: NextPage = () => {
     return (
-        <HomeStyled>
+        <Styled>
+            <Header />
             <Button>Hello</Button>
-        </HomeStyled>
+        </Styled>
     );
 };

@@ -1,3 +1,2 @@
-export * from './button'
-export * from './updatedDate'
-export * from './typography'
+export * from './button';
+export * from './logoLink';

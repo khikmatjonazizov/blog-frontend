@@ -1,5 +1,4 @@
 import styled from 'styled-components';
 
-export const HomeStyled = styled.div`
-    
+export const AboutStyled = styled.div`
 `
